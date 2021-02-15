@@ -1,8 +1,11 @@
-function add(n1, n2) {
-    return n1 + n2;
-}
-var number1 = 5;
-var number2 = 33.3;
-var result = add(number1, number2);
-
-console.log(result);
+// const person: { // this is sub-optimal. Better tolet TS refer the types on its own.
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Valeria",
+//   age: 24,
+// };
+var person = {
+    name: "Valeria",
+    age: 24
+};
